@@ -3,9 +3,9 @@ const port = process.env.PORT || 7000;
 const app = express();
 
 app.get('/', (req, res) => {
-    req.send('it works');
+    res.status(200).send('now?');
 });
 
 app.listen(port, () => {
-    console.log(`http:localhost:${port}`);
+    console.log(`http://localhost:${port}`);
 });
