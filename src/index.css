@@ -1,0 +1,38 @@
+body{
+    background-image: url('../editedbackground.png');
+}
+.inline_elements{
+    display: inline-flex;
+    padding-left: 80%;
+}
+.inline_text{
+    font-weight: bold;
+    color: darkred;
+    text-decoration: underline;
+    margin: 1rem;
+    cursor: pointer;
+    width: 5rem;
+}
+.cred_inp{
+    margin: 0.25rem;
+    border-top: 0rem;
+    border-left: 0rem;
+    border-right: 0rem;
+}
+#cred{
+    padding-top: 20%;
+    padding-left: 40%;
+}
+#submit_button_div{
+    padding-left: 17%;
+}
+#submit_button{
+    background-color:firebrick;
+    color:aliceblue;
+    font-weight: bold;
+}
+#gt{
+    font-size: 7rem;
+    text-align: center;
+    color:darkolivegreen;
+}
