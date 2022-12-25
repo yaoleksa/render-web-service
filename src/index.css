@@ -1,6 +1,3 @@
-body{
-    background-image: url('../editedbackground.png');
-}
 .inline_elements{
     display: inline-flex;
     padding-left: 80%;
